@@ -1,0 +1,13 @@
+// Create a new account
+POST http://localhost:8082/api/accounts HTTP/1.1
+Content-Type: application/json
+
+"0aa97cfc-bf70-46c8-b8f2-1d649b900d87"
+
+###
+
+
+// Get account balance
+GET http://localhost:8082/api/accounts/b914ac47-ed17-4582-8c35-76706b967acc HTTP/1.1
+
+###
